@@ -1,4 +1,5 @@
 export function UserInfo({ user }) {
+  if (!user?.name) return <>User Not Found.</>
   const { name, age, haircolor, hobbies } = user;
 
   return (

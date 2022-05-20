@@ -1,2 +1,4 @@
 # react-design-patterns
-Created with CodeSandbox
+
+https://www.linkedin.com/learning/react-design-patterns/
+

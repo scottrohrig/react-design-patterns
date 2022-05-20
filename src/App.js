@@ -3,6 +3,7 @@ import { Main } from './components/Main';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SplitScreenApp from "./components/sample-apps/SplitScreenApp";
 import "./styles.css";
+import { CurrentUserContainer } from './components/container/CurrentUserContainer';
 
 const links = [
   {
@@ -18,7 +19,7 @@ const links = [
   {
     path: '/container-components',
     label: 'Containers',
-    Element: Main
+    Element: CurrentUserContainer
   }
 ]
 
