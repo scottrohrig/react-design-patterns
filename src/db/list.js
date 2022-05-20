@@ -1,4 +1,4 @@
-export const people = [
+const people = [
   {
     name: "John Deere",
     age: 54,
@@ -19,7 +19,7 @@ export const people = [
   }
 ];
 
-export const products = [
+const products = [
   {
     name: "Golf Club",
     price: "$45",
@@ -45,3 +45,8 @@ export const products = [
     rating: 10
   }
 ];
+
+module.exports = {
+  people,
+  products
+}

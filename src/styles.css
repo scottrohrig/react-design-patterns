@@ -1,4 +1,23 @@
-.App {
+body {
   font-family: sans-serif;
-  text-align: center;
+}
+
+header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+.logo, .brand-name {
+  display: inline-block;
+  padding: 0 2px;
+}
+.logo {
+  background-color: blueviolet;
+  color: aliceblue;
+  padding: 3px 6px;
+  border-radius: 1.5rem;
 }

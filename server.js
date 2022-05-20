@@ -1,5 +1,7 @@
 const express = require("express");
+// import express from 'express'
 const { people, products } = require("./src/db/list");
+// import { people, products } from './src/db/list'
 const app = express();
 app.use(express.json());
 
